@@ -10,20 +10,20 @@ A two-page fraud detection dashboard built on a synthetic payment dataset of 5,0
 
 Overview of flagged activity across the full transaction set.
 
-- **KPI row** — Total transactions, Blocked, Under Review, Clean, Amount at Risk
-- **Risk distribution donut** — share of Clean / Review / Block
-- **Risk Score Histogram** — 10 score bands (0–100), color-coded by flag status
-- **Flagged by Category** — bar chart ranked by fraud volume with Risk Level color legend
-- **Flagged by Channel** — table with flag count and flag rate per channel
-- **Flagged by State** — horizontal bar chart, top 6 high-risk states
+- **KPI row** - Total transactions, Blocked, Under Review, Clean, Amount at Risk
+- **Risk distribution donut** - share of Clean / Review / Block
+- **Risk Score Histogram** - 10 score bands (0–100), color-coded by flag status
+- **Flagged by Category** - bar chart ranked by fraud volume with Risk Level color legend
+- **Flagged by Channel** - table with flag count and flag rate per channel
+- **Flagged by State** - horizontal bar chart, top 6 high-risk states
 
 ### Page 2 Fraud Pattern Watchlist
 
 Breakdown of three injected fraud patterns with a transaction-level drill table.
 
-- **Pattern 01 Card Testing** — Online transactions under $5, +45 score pts
-- **Pattern 02 Account Takeover** — Foreign currency to Wire Transfer / Crypto Exchange, +50 score pts
-- **Pattern 03 Electronics Burst** — Electronics purchases above $500, +40 score pts
+- **Pattern 01 Card Testing** - Online transactions under $5, +45 score pts
+- **Pattern 02 Account Takeover** - Foreign currency to Wire Transfer / Crypto Exchange, +50 score pts
+- **Pattern 03 Electronics Burst** - Electronics purchases above $500, +40 score pts
 - **Watchlist table** — Transaction ID, timestamp, user, category, channel, amount, risk score, flag badge, pattern label
 
 ## Scoring Engine
@@ -91,9 +91,9 @@ fraud-detection-dashboard-powerbi/
 
 ## Tools Used
 
-- **Power BI Desktop** — report and data model
-- **DAX** — measures and calculated columns
-- **Python** — synthetic dataset generation and scoring engine
+- **Power BI Desktop** - report and data model
+- **DAX** - measures and calculated columns
+- **Python** - synthetic dataset generation and scoring engine
 
 ## Dataset
 
